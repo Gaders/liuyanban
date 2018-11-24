@@ -10,7 +10,7 @@ window.onload=function() {
                alert("请输入内容")
            }
            else if (document.getElementsByClassName("nicheng")[0].value.length == 0){
-            alert("请输入昵称")
+              alert("请输入昵称")
            }
            
           
@@ -29,7 +29,24 @@ window.onload=function() {
            }
      })
 
+  var neirong = document.querySelector(".neirong")
+  neirong.addEventListener("click",function(){
+    if(document.getElementsByClassName("neirong")[0].value == "请在此输入内容--By⑨"){
+      document.getElementsByClassName("neirong")[0].value = ""
+      document.getElementsByClassName("neirong")[0].style.cssText="color:black"
+    }
     
+
+  })
+   var neirong = document.querySelector(".nicheng")
+  neirong.addEventListener("click",function(){
+    if(document.getElementsByClassName("nicheng")[0].value == "请在此输入昵称--By⑨"){
+      document.getElementsByClassName("nicheng")[0].value = ""
+      document.getElementsByClassName("nicheng")[0].style.cssText="color:black"
+    }
+    
+
+  }) 
 
 
 
@@ -88,6 +105,12 @@ var dianzan5 = document.querySelector(".dianzan5")
 } 
 
 
+
+
+
+
+    
+    
 
 
 
