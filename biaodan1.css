@@ -4,7 +4,7 @@
 }
 .body1 {
  
-    background: url("./jiu.jpg") no-repeat;
+    background: url("./jiu.jpg") fixed;
 }
 
 #first {
