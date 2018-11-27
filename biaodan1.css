@@ -5,9 +5,15 @@
 .body1 {
  
     background: url("./jiu.jpg") no-repeat;
+<<<<<<< HEAD
     width: 100%;
     height: 100%;
     overflow: hidden;
+=======
+    height:100%;
+    width:100%;
+    overflow:hidden;
+>>>>>>> c40e5bbdb4e6de9a780e7ce370c0f7a861411b38
     background-size:cover;
 }
 
