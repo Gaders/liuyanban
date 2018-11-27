@@ -5,15 +5,9 @@
 .body1 {
  
     background: url("./jiu.jpg") no-repeat;
-<<<<<<< HEAD
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-=======
     height:100%;
     width:100%;
     overflow:hidden;
->>>>>>> c40e5bbdb4e6de9a780e7ce370c0f7a861411b38
     background-size:cover;
 }
 
@@ -68,7 +62,7 @@
     width: 65%;
     height: 100%;
     background-color:white;
-    color: rgba(99, 100, 97, 0.185);
+    color: rgba(163, 173, 165, 0.185);
     font-size-adjust: inherit;
     text-align: start;
     justify-content: center;
@@ -79,7 +73,7 @@
     height: 100%;
     
     
-    color: rgba(99, 100, 97, 0.185)
+    color: rgba(140, 150, 141, 0.185)
    
    
     
@@ -202,6 +196,7 @@
     -webkit-animation-delay: 0s;
 }
 .the1 {
+    color: blue;
     float: left;
     -webkit-animation-name: flash1;
     -webkit-animation-duration: 2s;
@@ -219,6 +214,7 @@
     
 }
 .the2{
+    color: blue;
     float: left;
     -webkit-animation-name: flash1;
     -webkit-animation-duration: 2s;
@@ -236,6 +232,7 @@
     
 }
 .the3{
+    color: blue;
     float: left;
     -webkit-animation-name: flash1;
     -webkit-animation-duration: 2s;
@@ -253,6 +250,7 @@
     
 }
 .the4{
+    color: blue;
     float: left;
     -webkit-animation-name: flash4;
     -webkit-animation-duration: 2s;
@@ -270,7 +268,7 @@
     
 }
 .the5{
-   
+    color: blue;
     float: left;
     -webkit-animation-name: flash4;
     -webkit-animation-duration: 2s;
@@ -288,7 +286,7 @@
     
 }
 .pinglun1 {
-    color: blue;
+    color: green;
     display: flex;
     justify-content: center;
     float: right;
@@ -305,7 +303,7 @@
 
 }
 .pinglun2 {
-    color: blue;
+    color: green;
     display: flex;
     justify-content: center;
     float: right;
@@ -322,7 +320,7 @@
 
 }
 .pinglun3 {
-    color: blue;
+    color: green;
     display: flex;
     justify-content: center;
     float: right;
@@ -339,7 +337,7 @@
 
 }
 .pinglun4 {
-    color: blue;
+    color: green;
     display: flex;
     justify-content: center;
     position: relative;
@@ -357,7 +355,7 @@
 
 }
 .pinglun5 {
-    color: blue;
+    color: green;
     display: flex;
     justify-content: center;
     position: relative;
