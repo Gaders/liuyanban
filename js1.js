@@ -101,14 +101,44 @@ var pinglun = document.querySelector("#first")
      
     var pinglunNicheng = prompt("请输入你的昵称")
     var pinglunNerrong = prompt("请输入想评论的内容")
+    
     if(pinglunNicheng == null ||  pinglunNerrong == null){alert("评论失败了嘤嘤嘤")}
     else{
-      
-    var str = e.target.className
+    var browser  = navigator.appName
+    var osSystem = window.navigator.userAgent
+     var str = e.target.className
     var k = str.replace("pinglun","")
     var p=document.querySelector(".the"+k+"")
-    p.insertAdjacentHTML("afterend","<div id='kong'></div><p class='theT"+k+"'>"+"<br>"+"评论者:"+ pinglunNicheng+"</br>"+"评论:"+pinglunNerrong+"</p>")
  
+
+
+/*
+    var first_1 = document.querySelector("#first-1") 
+
+
+    var kong = document.createElement("div")
+    kong.setAttribute("id","kong")
+    first_1.appendChild(kong)
+
+    var theThe =document.createElement("p")
+    theThe.setAttribute("id","theThe")
+    first_1.appendChild(theThe)
+
+    var pinglunZhe = document.createElement("br")
+    pinglunZhe.innerText = "评论者:"+ pinglunNicheng +"评论:"+pinglunNerrong
+    theThe.appendChild(pinglunZhe)
+
+    var liuLanqi= document.createElement("br")
+    liuLanqi.innerText = "浏览器内核:"+browser +"操作系统:"+osSystem
+    theThe.appendChild(liuLanqi)
+  */
+
+
+    
+    p.insertAdjacentHTML("afterend","<div id='kong'></div><p class='theT"+k+"'>"+"<br>"+"评论者:"+ pinglunNicheng+"</br>"+"评论:"+pinglunNerrong+"<br>"+"浏览器:"+browser +"</br>"+"操作系统:太长没想好哪段有用"+"</p>")
+    
+    
+    
   }
     
     }

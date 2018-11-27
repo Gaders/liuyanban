@@ -207,6 +207,7 @@
 .theT1 {
     color: rgb(201, 230, 230);
     float: left;
+    font-size: 10;
     -webkit-animation-name: flash5;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: 1;
@@ -225,6 +226,7 @@
 .theT2 {
     color: rgb(201, 230, 230);
     float: left;
+    font-size: 10;
     -webkit-animation-name: flash5;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: 1;
@@ -234,6 +236,7 @@
 .the3{
     color: blue;
     float: left;
+    
     -webkit-animation-name: flash1;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: 1;
@@ -243,6 +246,7 @@
 .theT3 {
     color: rgb(201, 230, 230);
     float: left;
+    font-size: 10;
     -webkit-animation-name: flash5;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: 1;
@@ -261,6 +265,7 @@
 .theT4{
     color: rgb(201, 230, 230);
     float: left;
+    font-size: 10;
     -webkit-animation-name: flash5;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: 1;
@@ -279,6 +284,7 @@
 .theT5{
     color: rgb(201, 230, 230);
     float: left;
+    font-size: 10;
     -webkit-animation-name: flash5;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: 1;
@@ -289,6 +295,7 @@
     color: green;
     display: flex;
     justify-content: center;
+    
     float: right;
     width: 40;
     height: 40;
@@ -464,3 +471,18 @@
    }
 }
 
+#zhankai {
+    width: 20;
+    height: 20;
+    background-color: black
+}
+
+.theTK {
+    color: rgb(201, 230, 230);
+    float: left;
+    font-size: 10;
+    -webkit-animation-name: flash5;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+}
